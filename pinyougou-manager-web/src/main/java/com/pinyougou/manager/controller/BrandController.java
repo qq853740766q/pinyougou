@@ -13,6 +13,7 @@ import java.util.List;
  * @date 2018/8/1223:58
  */
 @RestController
+@RequestMapping("/brand")
 public class BrandController {
 
     @Reference

@@ -11,7 +11,7 @@
 
     <artifactId>pinyougou-manager-web</artifactId>
     <packaging>war</packaging>
-    <name>pinyougou-shop-web Maven Webapp</name>
+    <name>pinyougou-manager-web</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <!--common通用的模块-->
@@ -28,6 +28,8 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- Spring -->
+
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -60,6 +62,14 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+        </dependency>
         <!-- dubbo相关 -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -82,6 +92,10 @@
             <artifactId>servlet-api</artifactId>
             <scope>provided</scope>
         </dependency>
+
+
+
+
 
     </dependencies>
     <build>
